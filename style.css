@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: 'Fascinate', cursive;
+  color: #373fff;
+  font-size: 60px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.imagegroup {
+  width: 48%;
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 30px;
+  text-align: center;
+  font-style: italic;
+  position: relative;
+}
+
+.gallery {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.leftside {
+  float: left;
+  left: -100px;
+  bottom: 0px;
+}
+
+.middle {
+  float: none;
+  bottom: 0px;
+  left: -400px;
+}
+
+.rightside {
+  float: right;
+  right: -60px;
+  bottom: 390px;
+}
+
+.text {
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.welcome {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.centerImage {
+  display: block;
+  width: 0px;
+  margin-left: 525px;
+}
+
+#interactive {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -999;
+
+}
